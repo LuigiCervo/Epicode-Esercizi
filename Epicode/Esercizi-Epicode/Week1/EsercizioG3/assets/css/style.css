@@ -1,0 +1,38 @@
+img, main{
+ text-align: center; display: block; margin: auto;
+}
+
+nav{
+    font-size: 24px; text-align:center;
+    padding-top: 25px; background-color: #fefbf1; border-top: 2px solid #ffd977;
+    color: #004d40;
+}
+
+h1{
+font-size: 60px; text-align: center; margin-top: 100px; color: #363434;
+}
+
+#wow{
+      margin-top: 10px; font-size:40px; text-align: initial;
+}
+
+#description{
+     font-size: 1.2em;
+}
+
+video{
+    width: 50em; 
+}
+.didascalia{
+    text-align: center; font-size:50px; display: block; color:gray
+}
+.feature{
+    color: red; text-align: left
+}
+.ingr{
+    font-size:50px;
+}
+footer{
+    margin: auto; text-align: center;
+}
+
