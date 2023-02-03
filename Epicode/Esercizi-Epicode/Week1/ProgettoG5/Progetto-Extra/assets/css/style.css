@@ -1,0 +1,164 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+body,html{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.0em;
+    color: #393d41;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+header{
+    text-align: left;
+    background-color: black;
+}
+
+.logo{
+width: 15em; 
+padding: 40px;   
+}
+/* MAIN */
+
+section{
+    background-image: url(/assets/img/banner.jpg); height: 27em; 
+
+}
+
+#corso{
+
+    padding: 7em;
+}
+
+h1{
+    color:#25a2c3 ; line-height: 1.5; font-family: 'Montserrat', sans-serif; font-weight: bold;
+}
+
+section a{
+    background-color: #f04c2f; display: inline; color:white; font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 0.8em; text-decoration: none;
+
+    padding: 20px; padding-left: 60px; padding-right: 60px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main h3{
+    color:#25a2c3; font-family: 'Montserrat', sans-serif; line-height: 1.5;
+
+}
+
+.pc{
+  display: inline-block; padding: 5em;
+}
+
+.pc img{
+
+    width: 35em;   border-radius: 50%;
+}
+
+.didascalie{
+
+    display: inline-block; text-align: left; padding-bottom: 10em;
+}
+
+#Testimonianze {
+    background-color:#e22d0e ;
+    color:white
+}
+
+#Testimonianze p:last-child{
+    font-size: 0.7em; color: white; margin: 0; padding-bottom: 10em;
+}
+
+.Mario{
+    font-size: 1.2em; padding-top: 1em; margin:0;
+}
+
+#Testimonianze h2{
+
+    padding-top: 5em;
+}
+
+#part2{
+    
+    padding: 3em; box-sizing: border-box; 
+}
+
+#part2 h4 {
+
+    color: #25a2c3;
+}
+
+#part2 div{
+
+    width: 25em; margin:auto;  display: inline-block
+   
+
+}
+
+.impara img{
+
+    width: 79%; 
+}
+
+.Pc img{
+
+    width: 77.8%;
+}
+
+.lavora img{
+
+    width: 85%;
+}
+
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer{
+background-color:#25a2c3; color: #c8e7f0;
+}
+
+footer p:first-child{
+
+    color: white; font-size: 2em; padding: 0.5em; font-weight: bolder; font-size: 50px; margin: 0; font-weight: 500;
+}
+
+footer a{
+
+    color: #c8e7f0;
+
+}
+
+footer hr{
+    width: 10%;
+}
+
+
+
+.contatti{
+
+text-align: left; margin-left:43%; margin-right: 38%;
+}
+
+footer p:last-child{
+
+    margin:0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: white;
+}
+
