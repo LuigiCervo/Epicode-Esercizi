@@ -9,7 +9,7 @@ html, body{
 }
 
 body{
-    background-image: url(../img/sfondo.png);
+    background-image: url(../img/sfondo.png)1;
 }
 
 /* HEADER */
@@ -106,7 +106,20 @@ table caption{
     font-size: 1.3em;
     font-weight: bold;
 }
+
+.youtube{
+    margin:0 auto;
+    padding:0;
+    display:inline-block;
+    overflow:hidden;
+    border-radius:40px;
+}
 /* FORM */
+#box {
+    width: 300px;
+    border: 15px solid grey;
+    padding: 20px;
+    background-color: rgb(161, 160, 160);}
 
 /* ELEMENTI NELL' ASIDE */
 
@@ -126,7 +139,7 @@ aside h2{
     color:skyblue
 }
 
-.list :last-child{
+.list:last-child{
     text-align: right;
 }
 
