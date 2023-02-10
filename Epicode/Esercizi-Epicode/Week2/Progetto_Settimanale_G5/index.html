@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/stile.css">
+    
+    
+    <title>Calcolatrice</title>
+</head>
+<body>
+
+   <h1>La mia calcolatrice in JS!</h1>
+        
+    <div class="calcolatrice">
+        <div id="cal">
+            <input id="risultato" type="text">
+            <div id='primariga'>
+                <button id="1" onclick="digitazione(this)">1</button>
+                <button id="2" onclick="digitazione(this)">2</button>
+                <button id="3" onclick="digitazione(this)">3</button>
+                <button id="/" onclick="digitazione(this)">/</button>
+            </div id='secondariga'>
+            <div>
+                <button id="4" onclick="digitazione(this)">4</button>
+                <button id="5" onclick="digitazione(this)">5</button>
+                <button id="6" onclick="digitazione(this)">6</button> 
+                <button id="*" onclick="digitazione(this)">x</button>
+            </div>
+            <div id="terzariga">
+                <button id="7" onclick="digitazione(this)">7</button>
+                <button id="8" onclick="digitazione(this)">8</button>
+                <button id="9" onclick="digitazione(this)">9</button>
+                <button id="-" onclick="digitazione(this)">-</button>
+            </div>
+            <div id="ultimariga">
+                <button id="C" onclick="reset()">C</button>
+                <button id="0" onclick="digitazione(this)">0</button>
+                <button id="." onclick="digitazione(this)">.</button>
+                <button id="+" onclick="digitazione(this)">+</button>
+            </div>
+            <div> 
+                <button id="=" class="uguale" onclick="totale()">=</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+    <script src="./asset/javascript/script.js"> </script>  
+    
+
+</body>
+</html>

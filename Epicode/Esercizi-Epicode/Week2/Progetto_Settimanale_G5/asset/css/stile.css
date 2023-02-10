@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+body{
+    background-image: url(../img/Sfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 0 auto; 
+    padding: 0 auto;
+    text-align: center;
+
+}
+
+h1{
+margin: 0 20%;
+background-color: #17a3df;
+padding: 20px 0 20px 0;
+margin-top: 5%;
+color: rgb(255, 255, 255);
+font-family: 'Lexend', sans-serif;
+}
+
+
+.calcolatrice{
+    text-align: center;
+    border-radius:10%;
+    background-color:#5beff7b5;
+    width: 300px;
+    height: 360px;
+    margin: 10em auto;
+    box-shadow:5px 5px;   
+    
+}
+
+#cal{
+    padding-top:13px;
+
+}
+
+#risultato{
+    width:222px;
+    height:35px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-align: right;
+    box-shadow: 4px 4px black;
+    
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    box-shadow:4px 4px black;
+    font-size:25px;
+    margin: 3px;
+    font-weight: 800;
+    color: white;
+    background-color: aqua;
+    border-radius: 50%;
+    font-family: 'Lexend', sans-serif;
+    
+}
+
+.uguale{
+    width:222px;
+    margin-top: 10px;
+}
+
+#C {
+    background-color: white;
+    color: aqua;
+}
