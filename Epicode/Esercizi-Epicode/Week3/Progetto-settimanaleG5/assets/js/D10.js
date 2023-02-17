@@ -550,8 +550,8 @@ function addLiElement () {
   let ul = document.getElementById('myList');
   let li = document.createElement("li");
   let textLi = document.createTextNode('Nuovo Elemento');
-  letappendChild(textLi);
   ul.appendChild(li);
+  li.appendChild(textLi);
 
 }
 
@@ -606,3 +606,20 @@ addClass()
 */
 
 /* Questo array viene usato per gli esercizi. Non modificarlo. */
+
+
+function isItPrime(numero){
+  let contatoreDivisori = 0
+  for(let i = numero; i != 1 ; i--){
+    if (numero % i == 0){
+      contatoreDivisori++
+    }
+    if(contatoreDivisori > 1){
+      return 'il numero non è primo'
+    }
+    else 
+    return 'il numero è primo'
+  }
+}
+
+console.log(isItPrime(17))
