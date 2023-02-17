@@ -611,7 +611,7 @@ addClass()
 function isItPrime(numero){
   let contatoreDivisori = 0
   for(let i = numero; i != 1 ; i--){
-    if (numero % i == 0){
+    if (numero % i == 0 && numero % 2 == 0){
       contatoreDivisori++
     }
     if(contatoreDivisori > 1){
