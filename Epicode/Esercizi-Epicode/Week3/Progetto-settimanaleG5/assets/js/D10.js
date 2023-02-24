@@ -608,18 +608,3 @@ addClass()
 /* Questo array viene usato per gli esercizi. Non modificarlo. */
 
 
-function isItPrime(numero){
-  let contatoreDivisori = 0
-  for(let i = numero; i != 1 ; i--){
-    if (numero % i == 0 && numero % 2 == 0){
-      contatoreDivisori++
-    }
-    if(contatoreDivisori > 1){
-      return 'il numero non è primo'
-    }
-    else 
-    return 'il numero è primo'
-  }
-}
-
-console.log(isItPrime(17))

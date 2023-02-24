@@ -203,20 +203,19 @@ Se la massa è superiore a 1000 stampa in console: "DANGER! OVERLOAD ALERT: Jump
 Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
 
- Masscrew = 957
  risultato= ' '
 
 switch(true){
-case  Masscrew < 500:
+case  massa < 500:
   risultato = 'Ship is under loaded'
   break
-case Masscrew === 500:
+case massa === 500:
   risultato = 'Ship is half loaded'
   break
-  case Masscrew > 700:
+  case massa > 700:
   risultato = 'Critical Load: Over 900'
   break
-  case Masscrew > 900:
+  case massa > 900:
   risultato = "DANGER! OVERLOAD ALERT: Jump ship now!"
 
 }

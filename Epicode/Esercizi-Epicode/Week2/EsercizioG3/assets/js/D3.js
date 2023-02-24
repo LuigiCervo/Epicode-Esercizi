@@ -13,6 +13,9 @@ if(numero1 > numero2){
 else if(numero1 < numero2){
   document.getElementById('ese1').innerHTML = numero2;
 }
+else  document.getElementById('ese1').innerHTML = 'i numeri sono uguali'
+
+
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -86,7 +89,7 @@ var totalShoppingCart = 30;
 var saldo  = (totalShoppingCart * 20) / 100
 
 if(totalShoppingCart > 50)
-document.getElementById('ese6').innerHTML = totalShoppingCart - saldoS
+document.getElementById('ese6').innerHTML = totalShoppingCart - saldo
 
 else
 document.getElementById('ese6').innerHTML = totalShoppingCart - saldo + 10 ;
@@ -156,10 +159,10 @@ else
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let val = 17;
-if (val < 10) {
-  document.getElementById('ese10').innerHTML = ("Meno di 10");
-  } else if (val < 5) {
-    document.getElementById('ese10').innerHTML = ("Meno di 5");
+if (val < 5) {
+  document.getElementById('ese10').innerHTML = ("Meno di 5");
+  } else if (val < 10) {
+    document.getElementById('ese10').innerHTML = ("Meno di 10");
   } else {
     document.getElementById('ese10').innerHTML = ("Uguale a 10 o maggiore");
   }
@@ -223,4 +226,4 @@ document.getElementById('ese14').innerHTML = array;
 /* SCRIVI QUI LA TUA RISPOSTA */
 array.splice(9,1,'100');
 
-document.getElementById('ese15').innerHTML = array;
+document.getElementById('ese15').innerHTML = array; 
