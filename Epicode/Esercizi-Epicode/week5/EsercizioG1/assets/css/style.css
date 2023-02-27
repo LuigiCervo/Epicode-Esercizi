@@ -227,16 +227,26 @@ footer a {
     }
     iframe,section{
         display:inline-block;
-        width: 49%;
+        width: 49.5%;
         vertical-align: middle;
     }
     aside{
         margin: 0 auto;
+        align-items: center;
+        
     }
-  }
+    
+    aside div{
+display: inline-block;
+        margin: 0;
+        width: 33.3%;
+        margin-inline-start: -10px;
+    }
+
 
   @media print{
     header, iframe, section, aside, footer{
         display:none;
     }
   }
+}
