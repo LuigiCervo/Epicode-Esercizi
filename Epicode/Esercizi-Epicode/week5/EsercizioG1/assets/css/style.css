@@ -237,6 +237,6 @@ footer a {
 
   @media print{
     header, iframe, section, aside, footer{
-        display:none
+        display:none;
     }
   }
