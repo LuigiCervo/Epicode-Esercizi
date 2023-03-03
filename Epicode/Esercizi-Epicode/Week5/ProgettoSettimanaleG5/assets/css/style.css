@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap');/*Header*/
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffc017;
+    height: 4.5em;
+    position: sticky;
+    border-bottom: 1px solid black;
+ }
+#logo{
+
+    margin-left: 8%;
+}
+nav{
+    width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+nav ul{
+    list-style: none;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20%;
+    width: 50%;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    border-radius: 99em;
+    font-weight: bold;
+    transition: background-color 0.5s ease-out;
+    width: 8.5em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+ #btn{
+    color: white;
+ }
+
+ /*Main e section*/
+
+ #container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+ }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 19rem;
+    margin-bottom: 5rem
+}
+
+ h1{
+    
+    font-size: 106px;
+ }
+
+ main section h3{
+    font-size: 24px;
+    color: rgb(46, 46, 46);
+    font-family: 'Spectral', serif;
+    position: relative;
+ }
+
+ #btn2{
+    position:absolute;
+    top: 43%;
+    width: 14.3rem;
+    font-size: 17px;
+ }
+
+ #container3
+ {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+ }
+
+ .trending{ 
+    margin-top: 20px;
+    margin-left: 22.4rem;
+    margin-right: 83rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:11%
+
+}
+
+.sezione{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    width: 30%;
+    position: relative;
+}
+
+.numero{
+    font-size: 40px;
+    color: grey;
+    font-weight: 400;
+    margin-right: 20px;
+    position: relative;
+}
+
+.foto img{
+width: 20px;
+border-radius: 50%;
+margin-top: 7px;
+}
+
+.nomeAutore{
+    position: absolute;
+    top: 10px;
+    left:90px;
+    width: 400px;
+
+}
+
+.titolo
+{
+    font-size: 15px ;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    line-height: 20px;
+}
+
+.data{
+    color:gray
+}
+.secondaParte {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+  }
+  
+  .imbbig {
+    width: 200px;
+    height: auto;
+  }
+  
+  .secondiArticoli {
+    display: flex;
+    height: 160px;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  .parteSinistra {
+    width: 75%;
+  }
+  
+  .categoria {
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 0 5px;
+    border-radius: 10px;
+  }
+  
+  .secondiTesti h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px;
+    line-height: 20px;
+  }
+  
+ /*parte destra*/
+  
+  .parteDestra {
+    width: 30%;
+  }
+  
+  .interessi {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .interessi div {
+    border: 1px solid grey;
+    font-size: 10px;
+    padding: 4px;
+  }
+  
+  .pagineSito ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pagineSito ul li {
+    list-style-type: none;
+  }
+
